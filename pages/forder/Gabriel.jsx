@@ -4,7 +4,7 @@ export default function Gabriel(){
 
 
 return <div>
-<button  onClick={function(){ alert("hola amhjbkmnigoljh hjk uhjbs")}}  >
+<button  onClick={function(){ alert("hola amhjbkmnilhgoljh hjk adduhjbs")}}  >
     probar
 </button>
 
