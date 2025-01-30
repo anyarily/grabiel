@@ -14,7 +14,7 @@ return<div>
 }
 
 export async function getStaticPaths(){
-    console.log("Holaouhghgjhhgit uylggitlwhbt ")
+    console.log("Holaouhghgjhhgit uylggitlwhbgit tkhgvhj ")
     try{
 
 return {
