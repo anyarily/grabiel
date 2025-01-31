@@ -6,6 +6,8 @@ export default function Primerpos({date}){
     let [agregar,setagregar]=useState("")
     let [cliente,setclientes]=useState([])
 
+
+    
  function agregando(e){
   e.preventDefault()
 let id=0 
@@ -25,7 +27,7 @@ return <div className={styles.div1}>
     <h2> gyuguguihkhgcgv</h2>
     <form onSubmit={ function(e){agregando(e) }}  >
     <input onChange={(a)=>{setagregar(a.target.value)    }} value={agregar} ></input>
-<h1 className={styles.titulo}> ESTILO DE TRABAJOS  </h1>
+<h1 className={styles.titulo}> estamos aqui y ahora</h1>
 <button className={styles.buton}  >
     agregar
 </button>
