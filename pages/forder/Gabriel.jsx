@@ -8,7 +8,7 @@ return <div>
     <h2>amigos nuevog</h2>
     
     <button>cebo</button>
-<button  onClick={function(){ alert("hola amhjbkmnilhcogoljh hjk adduhjbs")}}  >
+<button  onClick={function(){ alert("hola minesota")}}  >
     probar
 </button>
 
