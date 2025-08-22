@@ -10,7 +10,7 @@ export default function Gabriel(){
 return <div className={styles.moda}>
     <h3>enemigo</h3>
     <h2>amigos nuevog</h2>
-    
+    <h3>probando entrada</h3>
     <button>cebo</button>
 <button  onClick={function(){ alert("hola minesota")}}  >
     probar
