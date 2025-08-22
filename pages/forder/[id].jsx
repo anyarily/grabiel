@@ -14,13 +14,20 @@ return<div>
 }
 
 export async function getStaticPaths(){
-    console.log("Holaouhg <div classNamjhgie</divjlh>t")
+ 
     try{
+       const paths=[
+            {params:{id:"1"  }},
+            {params:{id:"2" }}
+        ]
+       
+
 
 return {
-    paths:[],
-   fallback: "blocking"
+    paths,
+   fallback: false
 }
+
 }catch(error){
         console.log(error)
 

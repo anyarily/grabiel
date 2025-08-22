@@ -7,7 +7,7 @@ export default function Primerpos({date}){
     let [cliente,setclientes]=useState([])
 
 
-    
+
  function agregando(e){
   e.preventDefault()
 let id=0 
@@ -58,7 +58,7 @@ return <div className={styles.div1}>
 
 </div>      })}
 
-console.log(e.id)
+
 </div>
 
 }
@@ -67,7 +67,7 @@ console.log(e.id)
 
 
 
-export async function getStaticProps({params}){
+export async function getStaticProps(){
     try{
  let red =await fetch("https://jsonplaceholder.typicode.com/posts" )
 

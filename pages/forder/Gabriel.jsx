@@ -1,9 +1,13 @@
+import Link from "next/link"
+import Image from "next/image"
+import styles from"./primerpo.module.css"
+
 export default function Gabriel(){
 
 
 
 
-return <div>
+return <div className={styles.moda}>
     <h3>enemigo</h3>
     <h2>amigos nuevog</h2>
     
@@ -11,8 +15,19 @@ return <div>
 <button  onClick={function(){ alert("hola minesota")}}  >
     probar
 </button>
+<Link target="blank" href="https://pelotainvernal.com/">
+<h3>hola</h3>
+</Link>
+<Image
+src="/imagene/1.jpg"  width={200} height={200}
 
-<input onChange={ function(a) {    } }  ></input>
+className={styles.ahora}
+
+>
+
+</Image>
+
+
 </div>
 
 

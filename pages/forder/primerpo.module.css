@@ -6,3 +6,22 @@
     color: blue;
     
 }
+
+
+
+  .ahora:hover {
+ border: style ;
+
+  }
+  .moda{
+    background-color: red;
+    border: solid 3px;
+    color: blue;
+  }
+  .moda:hover{
+    background-color: red;
+    border: solid 3px;
+    color: rgb(255, 196, 0);
+  }
+   
+   
